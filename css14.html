@@ -1,0 +1,56 @@
+<!--dropdown-->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Demo14</title>
+	<style type="text/css">
+   .dropbtn{
+background-color: :#4CAF50;
+color: white;
+padding: 16px;
+font-size: 16px;
+border:none;
+cursor: help;
+   }
+   .dropdown
+   {
+position: relative;
+display: inline-block;
+   }
+   .dropdown_content{
+display: none;
+position: absolute;
+background-color: hotpink;
+min-width: 160px;
+z-index: 1;
+   }
+   .dropdown_content a{
+color: darkblue;
+padding: 12px 16px;
+text-decoration: overline;
+display: block;
+   }
+   .dropdown_content a:over{
+background-color: pink;
+   }
+   .dropdown.hover.dropdown_content{
+display: block;
+   }
+   .dropdown:hover.dropbtn
+   {
+background-color: Blue;
+   }
+	</style>
+</head>
+<body> 
+	<h2>dropdown menu</h2>
+	<p>move the mouse over the button to open dropdown menu</p>
+	<div class="dropdown"><button class="dropbtn">Dropdown</button>
+	<div class="dropdown_content">
+<a href="multiplebg.html">Demo1</a>
+<a href="rounded corners.html">Rounded corners</a>
+	</div>
+</body>
+</html>
